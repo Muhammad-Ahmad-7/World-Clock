@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#nav-bar {
+    background-color: #00ffff4f;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #9d00ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link {
+    color: blue;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+#logo {
+    width: 100px;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.countryContainer {
+    width: 300px;
+    height:300px;
+    border: 2px solid #00000040;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #00000052, -4px -4px 4px #00000054;
+    overflow: hidden;
+}
+
+.timeContainer {
+    height: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryContainer h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.learnMoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:50px;
+    background-color: rgb(0, 94, 255);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
